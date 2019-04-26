@@ -21,6 +21,8 @@ export class MainComponent implements OnInit {
 
   ngOnInit() {
     this.provider.getTaskLists().then(res => {
+      console.log('res', res);
+      
       this.taskLists = res
     });
 
