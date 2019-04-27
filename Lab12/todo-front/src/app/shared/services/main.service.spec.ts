@@ -9,5 +9,4 @@ describe('MainService', () => {
     const service: MainService = TestBed.get(MainService);
     expect(service).toBeTruthy();
   });
-  
 });

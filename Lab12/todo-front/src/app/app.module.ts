@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { MainComponent } from './main/main.component';
 import {ProviderService} from './shared/services/provider.service';
 import {HttpClientModule} from '@angular/common/http';
+import {FormsModule} from '@angular/forms';
 
 
 @NgModule({
@@ -17,13 +18,11 @@ import {HttpClientModule} from '@angular/common/http';
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    
+    FormsModule,
   ],
   providers: [
     ProviderService
   ],
-
-  
   bootstrap: [AppComponent]
 })
 export class AppModule { }
