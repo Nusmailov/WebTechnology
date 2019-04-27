@@ -6,15 +6,15 @@ from api.serializers import TaskListSerializer, TaskSerializer
 
 
 @csrf_exempt
-def tasks_list(request):
+def tasksList_list(request):
     if request.method == "GET":
-        tasks = Task.objects.all()
-        serializer = TaskSerializer(tasks, many=True)
+        tasks = TaskList.objects.all()
+        serializer = TaskListSerializer(tasks, many=True)
         return JsonResponse(serializer.data, safe=False, status=200)
 
     elif request.method == "POST":
         data = json.loads(request.body)
-        serializer = TaskSerializer(data=data)
+        serializer = TaskListSerializer(data=data)
         if serializer.is_valid():
             serializer.save()
             return JsonResponse(serializer.data, status=201)
@@ -22,20 +22,20 @@ def tasks_list(request):
 
 
 @csrf_exempt
-def tasks_detail(request, pk):
+def tasksList_detail(request, pk):
     try:
-        task = Task.objects.get(id=pk)
-    except Task.DoesNotExist as e:
+        task = TaskList.objects.get(id=pk)
+    except TaskList.DoesNotExist as e:
         return JsonResponse({'error': str(e)})
 
     if request.method == 'GET':
-        serializer = TaskSerializer(task)
+        serializer = TaskListSerializer(task)
         return JsonResponse(serializer.data, status=200)
     elif request.method == 'PUT':
         data = json.loads(request.body)
-        serializer = TaskSerializer(instance=task, data=data)
+        serializer = TaskListSerializer(instance=task, data=data)
         if serializer.is_valid():
-            serializer.save()  # update function in serializer class
+            serializer.save()
             return JsonResponse(serializer.data, status=200)
         return JsonResponse(serializer.errors)
     elif request.method == 'DELETE':
