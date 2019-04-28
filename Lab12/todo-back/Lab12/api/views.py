@@ -81,6 +81,7 @@ def task_detail(request, pk):
         return JsonResponse({}, status=204)
 
 
+@csrf_exempt
 def taskList_tasks(request, pk):
     try:
         taskList = Task.objects.filter(task_list__id=pk)
@@ -88,4 +89,14 @@ def taskList_tasks(request, pk):
         return JsonResponse({'error': str(e)})
     json_products = [p.to_json() for p in taskList]
 
-    return JsonResponse(json_products, safe=False)
+    if request.method == "GET":
+        return JsonResponse(json_products, safe=False)
+
+    elif request.method == "POST":
+        print(request.body, 'Nurzhigit')
+        data = json.loads(request.body)
+        serializer = TaskSerializer(data=data)
+        if serializer.is_valid():
+            serializer.save()
+            return JsonResponse(serializer.data, status=201)
+        return JsonResponse(serializer.errors, "error")

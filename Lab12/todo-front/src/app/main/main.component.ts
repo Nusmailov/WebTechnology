@@ -94,8 +94,9 @@ export class MainComponent implements OnInit {
     })
   }
   createTask(){
-    this.provider.createTask(this.taskCreate, this.taskListId).then(res=>{
-
+    this.provider.createTask(this.taskCreate, this.taskListId).then(res => {
+        this.task.push(res);
+        this.name = "";
     })
   }
 
