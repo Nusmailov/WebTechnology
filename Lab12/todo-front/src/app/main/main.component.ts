@@ -45,7 +45,6 @@ export class MainComponent implements OnInit {
         console.log(this.taskListId);
         this.task=data;
       }
-
     )
   }
 

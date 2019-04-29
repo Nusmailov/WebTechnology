@@ -37,16 +37,14 @@
         <h5 class="card-title">Name: {{taskDetailed.name}}</h5>
         <input type="text" [(ngModel)]="taskDetailed.status"/>
         <p class="card-text">Status: {{taskDetailed.status}}</p>
-
-
         <p class="card-text">Created at: {{taskDetailed.created_at}}</p>
-        <p class="card-text">Due on: {{taskDetailed.due_on}}</p>
+        <p class="card-text"><img src="../../favicon.ico"/>Due on: {{taskDetailed.due_on}}</p>
         <button type="button" class="btn btn-danger" (click)="deleteTask(taskDetailed)">Delete</button>
         <button type="button" class="btn btn-warning" (click)="updateTask(taskDetailed)">Edit</button>
       </div>
-
     </div>
   </div>
+
 
   <div *ngIf="showCreateTask">
     <div style="margin: 20px auto 30px auto;" class="">
