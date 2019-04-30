@@ -8,22 +8,29 @@ import { MainComponent } from './main/main.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {FormsModule} from '@angular/forms';
 import {ProviderService} from './shared/services/provider.service';
-
+import {AuthInterceptor} from './AuthInterceptor';
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    MainComponent
-
+    MainComponent,
   ],
+
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
   ],
+
   providers: [
     ProviderService,
+    <ClassProvider> {
+      provide: HTTP_INTERCEPTORS,
+      useClass: AuthInterceptor,
+      multi: true
+    }
     ],
   bootstrap: [AppComponent]
 })

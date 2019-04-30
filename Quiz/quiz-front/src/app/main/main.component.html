@@ -1,3 +1,63 @@
-<p>
-  main works!
-</p>
+
+
+<div class="container">
+  <h1 style="text-align: center">Quiz</h1>
+  <ng-container *ngIf="!isLogged">
+    <div>
+      <div>
+        <input type="text" placeholder="Login" [(ngModel)]="login"/>
+      </div>
+      <div>
+        <input type="password" placeholder="Password" [(ngModel)]="password"/>
+      </div>
+      <div>
+        <button (click)="auth()">Log in</button>
+        <button (click)="logout()">Log out</button>
+      </div>
+    </div>
+
+
+
+  </ng-container>
+    <div>
+      <h2 style="text-align: center">Posts</h2>
+      <div *ngFor="let c of posts" >
+        <br>
+      <span (click)="getPostDetailed(c)">
+        {{c.title}}
+        <input type="text" [(ngModel)]="c.title" />
+      </span>
+        <button style="color: green" (click)="updatePost(c)"> Изменить</button>
+        <button style="color: red" (click)="deletePost(c)"> Удалить</button>
+      </div>
+    </div>
+
+  <div *ngIf="showPost">
+    <h2 style="text-align: center">Post Details</h2>
+    <div class="card" style="width: 18rem;">
+    <div class="card-body">
+      <input type="text" [(ngModel)]="postDetailed.title"/>
+      <h5 class="card-title">Name: {{postDetailed.body}}</h5>
+      <p class="card-text">Status: {{postDetailed.created_at}}</p>
+      <p class="card-text">Status: {{postDetailed.created_by}}</p>
+      <p class="card-text">Created at: {{postDetailed.like_count}}</p>
+    </div>
+    </div>
+  </div>
+
+
+  <div style="margin: 20px auto 30px auto;" class="">
+    <h4 style="text-align: center">Create Post</h4>
+    <p>Title of Post</p>
+    <input type="text" [(ngModel)]="postCreate.title"/>
+    <p>Created At</p>
+    <input type="text" [(ngModel)]="postCreate.created_at"/>
+    <p>Body</p>
+    <input type="text" [(ngModel)]="postCreate.body"/>
+    <p>Like</p>
+    <input type="text" [(ngModel)]="postCreate.like_count"/>
+  </div>
+  <button type="button" class="btn btn-warning" (click)="createPost()">Create</button>
+
+
+</div>

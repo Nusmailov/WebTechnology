@@ -52,9 +52,7 @@ export class MainComponent implements OnInit {
     this.provider.getTaskDetailed(task.id).then(data=>{
         this.showTask = true;
         this.taskDetailed = data;
-
       }
-
     )
   }
 
