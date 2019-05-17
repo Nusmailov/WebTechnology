@@ -1,47 +1,41 @@
-from django.contrib.auth.models import User
-from api.serializers import PostSerializer
-from rest_framework import generics
 from rest_framework import status
-from rest_framework.decorators import api_view
 from rest_framework.response import Response
-from rest_framework.authtoken.serializers import AuthTokenSerializer
-from rest_framework.authtoken.models import Token
 from django.contrib.auth import authenticate
-from django.shortcuts import render
-
+from django.contrib.auth.models import User
+from rest_framework.decorators import api_view
+from rest_framework.authtoken.models import Token
+from django.contrib.auth import login
+from django.views.decorators.csrf import csrf_exempt
+from rest_framework.views import APIView
+from api.serializers import UserSerializer
+from rest_framework.permissions import IsAuthenticated
 
 
 @api_view(['POST'])
+@csrf_exempt
 def login(request):
-    serializer = AuthTokenSerializer(data=request.data)
-    serializer.is_valid(raise_exception=True)
-    user = serializer.validated_data['user']
+    username = request.data.get('username')
+    password = request.data.get('password')
+
+    user = authenticate(username=username, password=password)
+    if user is None:
+        return Response({'error': 'Invalid data'})
+
     token, created = Token.objects.get_or_create(user=user)
     return Response({'token': token.key})
 
 
+class UserCreate(APIView):
+    def post(self, request, format='json'):
+        serializer = UserSerializer(data=request.data)
+        if serializer.is_valid():
+            user = serializer.save()
+            if user:
+                return Response(serializer.data, status=status.HTTP_201_CREATED)
+
+
 @api_view(['POST'])
 def logout(request):
+    permission_classes = (IsAuthenticated,)
     request.auth.delete()
     return Response(status=status.HTTP_204_NO_CONTENT)
-
-
-#
-# @api_view(['POST'])
-# def login(request):
-#     username = request.data.get('username')
-#     password = request.data.get('password')
-#     user = authenticate(username=username, password=password)
-#     if user is None:
-#         # return Response({'error': 'Invalid data'})
-#         return render(request, 'login.html')
-#     # auth_login(request.data, user)
-#     token, created = Token.objects.get_or_create(user=user)
-#     return render(request, 'login.html')
-#
-#
-#
-# @api_view([])
-# def logout(request):
-#     request.user.auth_token.delete()
-#     return Response(status=status.HTTP_200_OK)

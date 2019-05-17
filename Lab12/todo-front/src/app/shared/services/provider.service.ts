@@ -24,12 +24,12 @@ export class ProviderService  extends MainService{
     return this.get(`http://127.0.0.1:8000/api/taskList/${id}/list`,{})
   }
 
-
   createTaskList(name: any): Promise<ITaskList> {
     return this.post('http://127.0.0.1:8000/api/taskList', {
       name: name
     });
   }
+
   updateTaskList(taskList: ITaskList){
     return this.put(`http://127.0.0.1:8000/api/taskList/${taskList.id}/`,{
       name: taskList.name
@@ -45,8 +45,8 @@ export class ProviderService  extends MainService{
 
   updateTask(task:ITaskDetailed){
     return this.put(`http://127.0.0.1:8000/api/tasks/${task.id}`,{
-      name:task.name,
-      status:task.status,
+      name: task.name,
+      status: task.status,
     });
   }
 

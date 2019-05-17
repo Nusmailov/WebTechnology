@@ -2,22 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b07a40b7-efca-47e8-a600-3512c6b919d6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/auth.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../quiz-front/src/app/AuthInterceptor.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../quiz-front/src/app/shared/models/models.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lab12/todo-back/Lab12/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab12/todo-back/Lab12/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lab12/todo-front/src/app/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab12/todo-front/src/app/main/main.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../Lab12/todo-front/src/app/shared/services/provider.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Lab12/todo-front/src/app/shared/services/provider.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/AuthInterceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/shared/models/models.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/quiz/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../quiz-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../quiz-front/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../quiz-front/src/app/main/main.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../quiz-front/src/app/main/main.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../quiz-front/src/app/main/main.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../quiz-front/src/app/main/main.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../quiz-front/src/app/shared/services/provider.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../quiz-front/src/app/shared/services/provider.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/quiz.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/quiz.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/api/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/main/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/main/tests.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/quiz/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/quiz/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/quiz/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-back/quiz/quiz/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-front/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-front/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app-routing.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/../../../Quiz2/quiz-front/src/app/app.module.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,31 +36,32 @@
     <session id="602295516">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.3" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.3" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="18" />
+          <entry key="py" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="18" />
+          <entry key="Python" value="19" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="867" />
+          <entry key="py" value="871" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="867" />
+          <entry key="Python" value="871" />
         </counts>
       </usages-collector>
     </session>
@@ -63,8 +71,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+            <state relative-caret-position="330">
+              <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
                 <marker date="1556599892548" expanded="true" signature="100:337" ph="..." />
@@ -74,15 +82,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/apps.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" selection-start-line="3" selection-end-line="3" />
+            <state>
+              <caret selection-end-line="4" selection-end-column="25" />
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -93,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/serializers.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
+            <state relative-caret-position="210">
+              <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
               <folding>
                 <element signature="e#0#21#0" expanded="true" />
               </folding>
@@ -105,8 +108,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
+            <state relative-caret-position="315">
+              <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
               <folding>
                 <element signature="e#0#35#0" expanded="true" />
               </folding>
@@ -117,10 +120,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+            <state relative-caret-position="615">
+              <caret line="41" lean-forward="true" selection-start-line="13" selection-end-line="41" />
               <folding>
-                <element signature="e#0#43#0" expanded="true" />
+                <element signature="e#0#33#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -134,11 +137,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+            <state relative-caret-position="105">
+              <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="33" />
               <folding>
                 <element signature="e#0#28#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/quiz/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -151,8 +163,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/quiz/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state relative-caret-position="531">
+              <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -196,7 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -218,6 +229,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -305,40 +317,63 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/apps.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/quiz/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
+        <state relative-caret-position="300">
           <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="36" selection-start-line="21" selection-start-column="36" selection-end-line="21" selection-end-column="36" />
           <folding>
-            <element signature="e#628#660#0" expanded="true" />
+            <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quiz/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/apps.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state>
+          <caret selection-end-line="4" selection-end-column="25" />
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/tests.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quiz/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="531">
+          <caret line="49" column="24" selection-start-line="49" selection-start-column="24" selection-end-line="49" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="8" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#28#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="9" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+        <state relative-caret-position="330">
+          <caret line="22" column="9" lean-forward="true" selection-start-line="22" selection-start-column="9" selection-end-line="22" selection-end-column="9" />
           <folding>
             <element signature="e#0#28#0" expanded="true" />
             <marker date="1556599892548" expanded="true" signature="100:337" ph="..." />
@@ -348,46 +383,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/serializers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="210">
+          <caret line="14" column="15" lean-forward="true" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
           <folding>
             <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/tests.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="1" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#28#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="52" column="8" selection-start-line="52" selection-start-column="8" selection-end-line="52" selection-end-column="8" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="9" column="35" lean-forward="true" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        <state relative-caret-position="615">
+          <caret line="41" lean-forward="true" selection-start-line="13" selection-end-line="41" />
           <folding>
-            <element signature="e#0#43#0" expanded="true" />
+            <element signature="e#0#33#0" expanded="true" />
           </folding>
         </state>
       </provider>

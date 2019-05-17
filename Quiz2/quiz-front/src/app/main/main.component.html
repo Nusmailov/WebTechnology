@@ -1,0 +1,45 @@
+<h1 align="center">Quiz 2</h1>
+
+<div>
+  <div>
+    <input type="text" placeholder="Login" [(ngModel)]="login"/>
+  </div>
+  <div>
+    <input type="password" placeholder="Password" [(ngModel)]="password"/>
+  </div>
+  <div>
+    <button (click)="auth()">Log in</button>
+    <button  (click)="logout()">Log out</button>
+  </div>
+</div>
+
+
+<ng-container>
+  <div>
+    <h2 style="text-align: center">Contacts</h2>
+    <div *ngFor="let c of contacts" >
+      <br>
+      <span (click)="getContactDetailed(c)">
+        name: {{c.name}}<br> phone: {{c.phone}}<br>
+        <input type="text" [(ngModel)]="c.name" />
+      </span>
+      <button style="color: green" (click)="updateContact(c)"> Изменить</button>
+      <button style="color: red" (click)="deleteContact(c)"> Удалить</button>
+    </div>
+
+  </div>
+</ng-container>
+
+
+
+<ng-container>
+  <div style="margin: 20px auto 30px auto;" class="">
+    <h4 style="text-align: center">Create Contact</h4>
+    <p>Contact name:</p>
+    <input type="text" [(ngModel)]="contactCreate.name"/>
+    <p>Phone Number:</p>
+    <input type="text" [(ngModel)]="contactCreate.phone"/>
+  </div>
+  <button type="button" class="btn btn-warning" (click)="createContact()"> Create </button>
+
+</ng-container>

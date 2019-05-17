@@ -1,0 +1,34 @@
+<app-main>
+  <ng-container>
+    <div class="container">
+      <div class="row">
+        <button type="button" class="btn btn-link btn-sm" (click)="navigateBack()">Back</button>
+      </div>
+      <br>
+      <div>
+        <div class="form-group">
+          <label for="tasklistname">New task List</label>
+          <input type="text" class="form-control" id="tasklistname" [(ngModel)]="taskListName" placeholder="Name ...">
+        </div>
+        <button type="submit" class="btn btn-warning" (click)="createTaskList()">create</button>
+      </div>
+      <br>
+      <table class="table">
+        <tr>
+          <td>#</td>
+          <td>Name</td>
+        </tr>
+        <tr *ngFor = "let taskList of taskLists">
+          <td>{{taskList.id}}</td>
+          <td>{{taskList.name}}</td>
+          <td>
+            <a routerLink="/task_lists/{{taskList.id}}/">About</a>
+          </td>
+          <td>
+            <a routerLink="/task_lists/{{taskList.id}}/tasks">Tasks</a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </ng-container>
+</app-main>
